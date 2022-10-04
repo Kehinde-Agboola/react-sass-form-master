@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./breakpoint";
+
+@import url("https://fonts.googleapis.com/css2?family=Charis+SIL:ital@1&family=Joan&family=Open+Sans&family=Quicksand:wght@300;400;500&family=Raleway:wght@100;300;400;500;600&family=Roboto:wght@300;700&display=swap");
+
+.flex {
+  display: flex;
+
+  &-wr {
+    flex-wrap: wrap;
+  }
+  &-jc-c {
+    justify-content: center;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-gap {
+    gap: 1rem;
+  }
+  &-gap1 {
+    gap: 1.5rem;
+  }
+}
+
+input {
+  outline: none;
+  border: none;
+  font-family: Poppins-Regular;
+  color: #333333;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 60px;
+  padding: 0 20px;
+
+  position: relative;
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+.btn__container {
+  width: 100%;
+  margin-top: 17px;
+
+  &__button {
+    margin-top: 3rem;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    border-radius: 10px;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+      background: linear-gradient(45deg, #00dbde, #fc00ff);
+    }
+  }
+}
+
+body {
+  font-family: "Joan", serif;
+  font-family: "Open Sans", sans-serif;
+}

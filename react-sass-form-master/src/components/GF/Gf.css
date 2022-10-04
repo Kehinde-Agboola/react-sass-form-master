@@ -1,0 +1,48 @@
+.btn__container__link > span {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.btn__container__facebook {
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 1.2;
+  padding: 15px;
+  width: calc((100% - 20px) / 2);
+  height: 70px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.btn__container__facebook:hover {
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  border-color: #fc00ff;
+}
+
+.btn__container__google {
+  cursor: pointer;
+  font-family: Montserrat-SemiBold;
+  font-size: 28px;
+  line-height: 1.2;
+  padding: 15px;
+  width: calc((100% - 20px) / 2);
+  height: 70px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  color: #555555;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn__container__google:hover {
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  color: #fff;
+  -webkit-transition: all ease-in-out;
+  transition: all ease-in-out;
+}
+/*# sourceMappingURL=Gf.css.map */

@@ -1,0 +1,18 @@
+.input__wrap {
+  position: relative;
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: 2rem;
+  top: 0;
+  bottom: 0;
+}

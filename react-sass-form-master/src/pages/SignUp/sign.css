@@ -1,0 +1,88 @@
+.form {
+  background-image: url(".././../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.form__wrapper {
+  width: 700px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 62px;
+  padding-bottom: 32px;
+  padding-right: 110px;
+  padding-left: 110px;
+}
+
+.form__span {
+  width: 100%;
+  display: block;
+  font-family: Montserrat-Medium;
+  font-size: 39px;
+  color: #555555;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 53px;
+  font-weight: 400;
+}
+
+.form__input {
+  padding-top: 31px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.form__input > span {
+  padding-bottom: 9px;
+  display: block;
+  font-family: Montserrat-SemiBold;
+  font-size: 14.5px;
+  color: #555555;
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.1px;
+}
+
+.form__forgot {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.5;
+  margin-left: 5px;
+  background: transparent;
+  border-bottom: 1px solid #999999;
+  font-weight: 300;
+}
+
+.form__forgot:hover {
+  color: #fc00ff;
+}
+
+.form__para {
+  padding-top: 45px;
+}
+
+.form__para span {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+.form__para__link {
+  border-bottom: 1px solid #999999;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+.form__para__link:hover {
+  color: #fc00ff;
+}
+/*# sourceMappingURL=sign.css.map */
